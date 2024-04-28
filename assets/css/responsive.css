@@ -1,0 +1,733 @@
+/* responsive-css */
+@media(min-width:1600px) {
+    .logo img{
+
+        width: 195px;
+        height: 60px;
+    }
+
+    .banner_contents {
+
+        top: 16%;
+    }
+
+    .bannerimg img {
+
+        height: 86vh;
+    }
+
+    .titlebanner h1 {
+
+        font-size: 40px;
+    }
+
+    .enquiryInput label {
+
+        font-size: 18px;
+    }
+
+    .enquiryInput .form-control,
+    .enquiryInput .form-select {
+
+        padding: 10px 11px;
+    }
+    .label_text .enquiryInput .form-control,
+    .label_text .enquiryInput .form-select {
+
+        padding: 12px 11px;
+    }
+
+    .bookappointment-btn button {
+
+        font-size: 19px;
+     
+    }
+
+    .listingmenu li a {
+
+        font-size: 19px;
+    }
+
+    a {
+
+        font-size: 17px;
+    }
+
+    .titleHeading,
+    .titlewhitebg {
+
+        font-size: 40px;
+    }
+
+    .treatmentText h5 {
+
+        font-size: 19px;
+    }
+
+    .box_primary,
+    .box_secondry {
+
+        margin: 50px 150px;
+    }
+
+    .padding_set {
+
+        padding-left: 150px !important;
+        padding-right: 150px !important;
+    }
+
+}
+
+@media(min-width:992px) {
+
+    .mobile-form {
+
+        /* position: absolute;
+        width: 38vw;
+        top: 17%;
+        z-index: 100;
+        right: 8%; */
+        border-radius: 20px;
+        background: rgba(0, 79, 173, 0.73);
+        -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+                box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        backdrop-filter: blur(4.5px);
+        -webkit-backdrop-filter: blur(4.5px);
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+    }
+
+    .padding_set {
+
+        padding-left: 150px !important;
+        padding-right: 80px !important;
+    }
+    .carousel-indicators{
+
+        position: absolute;
+        top: 50% !important;
+        left: 0 !important;
+        right: auto !important;
+        z-index: 1000 !important;
+        margin-left: 0% !important;
+        bottom: auto !important;
+        -webkit-transform:translateY(-50%) rotate(90deg);
+            -ms-transform:translateY(-50%) rotate(90deg);
+                transform:translateY(-50%) rotate(90deg);
+    }
+    .hospitals-details{
+
+        min-height: 158px;
+    }
+    .banner_img img{
+
+        height: 500px;
+        object-fit: cover;
+    }
+}
+
+@media(max-width:1200px) {
+
+    .titlebanner h1 {
+
+        font-size: 29px;
+    }
+
+    .owl-theme .owl-nav.disabled+.owl-dots {
+
+        top: 90% !important;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+                transform: translateX(-50%);
+    }
+
+    .box_primary,
+    .box_secondry {
+
+        margin: 50px 20px;
+    }
+
+    .padding_set {
+
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+    }
+
+    .bgdoctors {
+
+        height: 340px;
+    }
+
+    .dropdown .dropdown-menu {
+        margin: 0 !important;
+        -webkit-transition: 1s;
+        -o-transition: 1s;
+        transition: 1s;
+        border: none;
+    }
+
+    .dropdown-toggle {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center !important;
+            -ms-flex-align: center !important;
+                align-items: center !important;
+        -webkit-box-pack: justify !important;
+            -ms-flex-pack: justify !important;
+                justify-content: space-between !important;
+        width: 100% !important;
+        color: #fff !important;
+        -webkit-transition: 1s;
+        -o-transition: 1s;
+        transition: 1s;
+    }
+
+    .dropdown-menu {
+        -webkit-transition: 1s;
+        -o-transition: 1s;
+        transition: 1s;
+    }
+
+    .navbar-nav .nav-link {
+        padding-right: 1rem !important;
+    }
+
+    .navbar-nav .nav-link:hover {
+        color: #fff !important;
+        padding: 12px 6px;
+        background: #084298;
+        /* padding-left: 12px !important; */
+
+    }
+    .languagebx .dropdown.bootstrap-select .dropdown-toggle{
+
+        padding: 2px 14px;
+        border-color: var(--color4);
+        background: transparent;
+    }
+    /* .navbar-nav .nav-link:hover i{
+        transform: rotate(180deg);
+    }
+    .dropdown .dropdown-menu li a:hover i{
+
+        transform: rotate(-90deg);
+    } */
+
+    .navbar-expand-lg .navbar-nav .nav-link .fa-angle-right {
+        margin-left: 10px;
+        -webkit-transform: rotate(90deg);
+            -ms-transform: rotate(90deg);
+                transform: rotate(90deg);
+    }
+
+    .nav-link {
+        color: #000000 !important;
+        border-bottom: 1px solid gray;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 17px;
+        font-weight: 500;
+        padding: 12px 0;
+        color: #1e1e1e !important;
+    }
+
+    .nav-item a:hover {
+        color: #fff !important;
+        background: #004fad;
+    }
+
+    .nav-item:hover.nav-link {
+
+        color: #ffffff !important;
+    }
+
+    .dropdown .dropdown-menu .dropdown-toggle {
+        display: -webkit-box !important;
+        display: -ms-flexbox !important;
+        display: flex !important;
+        -webkit-box-align: center !important;
+            -ms-flex-align: center !important;
+                align-items: center !important;
+        -webkit-box-pack: justify !important;
+            -ms-flex-pack: justify !important;
+                justify-content: space-between !important;
+        width: 100% !important;
+        border: none;
+        padding-left: 23px !important;
+    }
+    .dropdown .dropdown-menu li a{
+
+        padding: 10px 15px 10px 28px !important;
+    }
+
+    .navbar-nav .nav-link {
+        color: #080808;
+        border-bottom: 1px solid #7e7e7ef5;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        padding-left: 0 !important;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .navbarBg{
+
+        background-color: var(--backgroundColor-white);
+    }
+    .navbarBg .container{
+
+        display: flow-root !important;
+    }
+    .navbar-toggler{
+
+        border: 0 !important;
+    }
+    .mobile-menues .navbar-toggler{
+
+        padding: 0 !important;
+    }
+    .topheader{
+
+        background-color: var(--backgroundColor-secondry);
+    }
+    .conatctfrequote{
+
+        background-color: var(--backgroundColor-white);
+    }
+    .conatctfrequote a{
+
+        color: var(--color1);
+    }
+    .conatctfrequote:hover{
+
+        border-color: var(--color4);
+    }
+    .conatctfrequote:hover a{
+
+        color: var(--color4);
+    }
+    .offcanvas-body{
+
+        padding: 0 !important;
+    }
+    .list-d h3{
+
+
+        font-size: 23px;
+    }
+    .moredetailsbtn{
+
+        padding: 7px 12px;
+        font-size: 12px;
+    }
+    .bookappoitment{
+
+        padding: 7px 12px;
+        font-size: 12px;
+    }
+  
+}
+
+@media(max-width:992px) {
+
+    .box_content {
+
+        text-align: center;
+    }
+
+    .banner_contents {
+
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+                transform: translateY(-50%);
+    }
+
+    .bannerimg img {
+
+        height: 60vh;
+    }
+
+    .madtripz_bg_slider .slider_image img {
+
+        border-radius: 20px !important;
+    }
+
+    .copyright p a {
+
+        font-size: 16px;
+    }
+
+    .copyright p {
+
+        font-size: 16px;
+    }
+
+    .copyright {
+
+        text-align: center;
+    }
+
+    .linkstrems {
+
+        -webkit-box-pack: center !important;
+
+            -ms-flex-pack: center !important;
+
+                justify-content: center !important;
+        padding-top: 10px;
+    }
+    .topDoctors.owl-carousel.owl-theme .owl-nav{
+
+        top: -73px;
+    }
+    .homesmall img{
+
+        height: auto;
+    }
+
+ 
+}
+
+@media screen and (min-width: 1200px) {
+    .dropend:hover>.dropdown-menu {
+        position: absolute;
+        top: 0;
+        left: 100%;
+    }
+
+    .dropend .dropdown-toggle {
+        margin-left: 0.5em;
+    }
+
+    .dropdown:hover>.dropdown-menu,
+    .dropend:hover>.dropdown-menu {
+        display: block;
+        margin-top: 0.125em;
+        margin-left: 0.125em;
+        border: none;
+        -webkit-box-shadow: 0px 2px 9px 0px #d9d9d9;
+                box-shadow: 0px 2px 9px 0px #d9d9d9;
+        border-radius: 2px;
+        min-width: 267px;
+        padding: 0;
+    }
+    .d-head-btn .conatctfrequote {
+        padding:12px 18px 12px 18px !important;
+        border-radius: 50px;
+    }
+    .consultaing_btn a{
+
+        padding:12px 18px 12px 18px !important;
+        border-radius: 50px;  
+    }
+
+}
+@media only screen and (min-width: 576px) and (max-width: 768px)  {
+
+    .container{
+
+        max-width: 720px !important;
+    }
+    .innerBanners .banner_img img{
+
+        height: 42vh;
+    }
+   
+    }
+
+@media(max-width:768px) {
+    .box-trust{
+        padding:10px
+    }
+    .hos-form {
+
+        gap: 3px;
+    }
+    .owl-prev i.fa-angle-right{
+        right:-17px;
+    }
+    .owl-prev i.fa-angle-left{
+        left:-17px;
+        display: flex;
+        
+    }
+    .box_primary,
+    .box_secondry {
+
+        padding: 30px 10px;
+    }
+
+    .form_footer {
+
+        padding: 10px;
+        padding-top: 20px;
+    }
+
+    .footerims img {
+        border-radius: 20px;
+    }
+
+    .bgdoctors {
+
+        height: 340px;
+    }
+
+    .homeBigblog::after,
+    .homesmallblog::after {
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(-77.57%, rgba(8, 20, 32, 0.0001)), color-stop(77.76%, #009444b3));
+        background: -o-linear-gradient(top, rgba(8, 20, 32, 0.0001) -77.57%, #009444b3 77.76%);
+        background: linear-gradient(180deg, rgba(8, 20, 32, 0.0001) -77.57%, #009444b3 77.76%);
+    }
+    .doctorpro_details{
+
+        min-height: 227px;
+    }
+    /* neelamcss */
+    .d-head {
+        margin-bottom: 3rem;
+        justify-content: center;
+    }
+    .d-head-btn {
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .d-head-btn span {
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+    .doc-dd .d-listrow .list-d {
+        width: 100%;
+    }
+    .blue-con .blue-text h4 {
+        font-size: 23px;
+    }
+    .d-fend {
+        margin-bottom: 1rem;
+        margin-top: 2rem !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .homesmall {
+        width: 49%;
+        display: inline-block;
+    }
+    .homesmall img{
+        height: auto;
+    }
+    .hos-department .br-1 {
+        border-right:none;
+    }
+    .hos-form {
+        flex-wrap: wrap;
+    }
+    .hos-form .form-group.w-40 {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .list-d h3{
+
+        display: flex;
+        gap: 2px;
+        align-items: center;
+    }
+  
+}
+
+@media(max-width:576px) {
+    .homesmall {
+        width: 100%;
+        display: inline-block;
+    }
+    .hopitalsImg img{
+
+        height: 320px;
+    }
+    .hos-doctor .doctors_profile {
+        height: 320px;
+    }
+    .list-d ul{
+
+        padding-left: 1.4rem !important;
+    }
+    .titlebanner h1 {
+
+        font-size: 25px;
+
+    }
+
+    .titlebanner p {
+
+        font-size: 16px;
+    }
+
+    .bannerimg img {
+
+        height: 55vh;
+    }
+    .innerBanners .banner_img img{
+
+        height: 55vh;
+        -o-object-fit: cover;
+           object-fit: cover;
+    }
+    .innerBanners .banner_img.hospitals_bannerInner img{
+
+        height: 37vh !important;
+        -o-object-fit: cover;
+           object-fit: cover;
+    }
+
+    .box_primary,
+    .box_secondry {
+
+        margin: 50px 6px;
+    }
+
+    .viewallBtn a,
+    .contactbtn a {
+        padding: 9px 26px 9px 26px;
+        font-size: 14px;
+    }
+
+    .titleHeading,
+    .titlewhitebg {
+
+        font-size: 25px;
+    }
+
+    .box_primary,
+    .box_secondry {
+        padding: 30px 5px;
+    }
+
+    .floatingcontact_btn {
+        display: none;
+    }
+
+    .bgdoctors {
+
+        height: 340px;
+    }
+
+    .travelBox p {
+
+        font-size: 18px;
+    }
+
+    .linkstrems {
+
+        -webkit-box-orient: vertical;
+
+        -webkit-box-direction: normal;
+
+            -ms-flex-direction: column;
+
+                flex-direction: column;
+    }
+
+    .exploremore {
+
+        font-size: 15px;
+    }
+
+    .doctorname {
+        font-size: 18px;
+    }
+
+    .hospitalname {
+
+        font-size: 15px;
+    }
+
+    .doctorpro_details {
+        padding-bottom: 6px;
+    }
+
+    .doctors_profile {
+
+        height: 163px;
+    }
+
+    .testimonials_text h3{
+        font-size: 20px;
+    }
+    .avatart {
+        width: 45px;
+        height: 45px;}
+        .profilenames h5{
+
+            max-width: 100%;
+            font-size: 18px;
+        }
+        .testimonials_text .date{
+
+            padding-top: 10px;
+        }
+        .mt-30{
+
+            margin-top: 49px;
+        }
+        /* .profilebox {
+
+            justify-content: center;
+        } */
+        .doc-blue .book-btn a{
+
+            padding: 10px 25px;
+        }
+        .doc-pro{
+
+            margin-top: -4rem;
+        }
+        .doc-page .banner_img img{
+
+            min-height: 224px;
+        }
+        .doc-pro h3{
+
+            font-size: 26px;
+        }
+        .doc-pro p{
+            font-size: 15px;
+        }
+        .patience-form form label{
+
+            font-size: 18px;
+        }
+      .doctors_profileImg .specilitiedoctors_wrapper .doctors_profile{
+        height: 270px;
+      }
+      .doctors_profileImg .specilitiedoctors_wrapper .doctorpro_details{
+
+        min-height: auto;
+      }
+      .consultaing_btn a,
+      .conatctfrequote.profile_book{
+
+        display: block;
+        width: 250px;
+        text-align: center;
+      }
+      .contact-title h2{
+        font-size: 23px;
+      }
+      .mobile-form{
+
+        padding: 20px 2px
+      }
+      .enquiryInput .calenderIco{
+
+        top: 38px;
+      }
+}

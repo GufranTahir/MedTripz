@@ -1,0 +1,1075 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedTripz (رحلات علاجية)</title>
+     <!-- favicon -->
+     <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+     <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+     <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+     <link rel="manifest" href="favicon_io/site.webmanifest">
+     <link rel="stylesheet" href="assets/css/style.css">
+     <link rel="stylesheet" href="assets/css/responsive.css">
+     <link rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+     <link rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flag-icon-css@4.1.7/css/flag-icons.min.css">
+     <link rel="stylesheet"
+         href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/css/bootstrap-select.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
+</head>
+
+<body>
+
+
+    <div class="floatingcontact_btn">
+        <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">Contact us Now</a>
+    </div>
+    <div class="whatsapchat">
+        <a href="https://api.whatsapp.com/send?phone=+918318914543&text=Welcome%20to%20MedTripz" target="_blank">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <header class="topheader">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-sm-2">
+                    <div class="logo d-xl-block d-none">
+                        <a href="index.html"><img src="assets/images/medTripznew.png" alt="logoheader" width="170px"
+                                height="52px"></a>
+                    </div>
+                </div>
+                <div class="col-sm-10">
+                    <div class="right-topsections d-flex align-items-center gap-3 justify-content-end">
+                        <div class="languagebx">
+                            <select id="languageDropdown" class="selectpicker" data-width="fit">
+                                <option data-content='<span class="flag-icon flag-icon-us"></span> English'>English
+                                </option>
+                                <option data-content='<span class="flag-icon flag-icon-sa"></span> Arabic'>Arabic
+                                </option>
+                            </select>
+                        </div>
+                        <div class="chatbxwhtassap d-xl-block d-none">
+                            <a href="">Chat with Expert</a>
+                        </div>
+                        <div class="conatctfrequote">
+                            <a href="contactus.html">Get Free Quote</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav class="navbar navbar-expand-xl navbarBg">
+        <div class="container">
+            <div class="mobile-menues d-flex align-items-center justify-content-between">
+                <div class="logo d-xl-none">
+                    <a href=""> <img src="assets/images/medTripznew.png" alt="logoheader" width="170px"
+                            height="52px"></a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop"
+                    aria-controls="staticBackdrop">
+                    <!-- <span class="navbar-toggler-icon"></span>  -->
+                    <div class="site-header-responsive-trigger-icon">
+                        <div class="trigger-line-1"></div>
+                        <div class="trigger-line-2"></div>
+                        <div class="trigger-line-3"></div>
+                    </div>
+                </button>
+            </div>
+
+            <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop"
+                aria-labelledby="staticBackdropLabel">
+                <div class="offcanvas-header">
+                    <img src="assets/images/medTripznew.png" alt="logoheader" width="170px" height="52px">
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Hospitals <i class="fas fa-angle-down"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+
+                                <li class="nav-item dropend">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        India <i class="fas fa-angle-right"></i>
+                                    </a>
+                                    <ul class="dropdown-menu">
+
+                                        <li><a class="dropdown-item" href="#">CARDIOLOGY</a></li>
+                                        <li><a class="dropdown-item" href="#">DENTAL TREATMENT</a></li>
+                                        <li><a class="dropdown-item" href="#">COSMETIC</a></li>
+                                        <li><a class="dropdown-item" href="#">DERMATOLOGY</a></li>
+                                        <li><a class="dropdown-item" href="#">ENDOCRINOLOGY</a></li>
+                                        <li><a class="dropdown-item" href="#">ENT SURGERY</a></li>
+                                        <li><a class="dropdown-item" href="#">GASTROENTEROLOGY</a></li>
+                                        <li><a class="dropdown-item" href="#">GENERAL SURGERY</a></li>
+                                        <li><a class="dropdown-item" href="#">GYNECOLOGY</a></li>
+                                        <li><a class="dropdown-item" href="#">HEMATOLOGY</a></li>
+
+
+
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropend">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        UAE <i class="fas fa-angle-right"></i>
+                                    </a>
+                                    <ul class="dropdown-menu">
+
+                                        <li><a class="dropdown-item" href="#">CARDIOLOGY</a></li>
+                                        <li><a class="dropdown-item" href="#">DENTAL TREATMENT</a></li>
+                                        <li><a class="dropdown-item" href="#">COSMETIC</a></li>
+                                        <li><a class="dropdown-item" href="#">DERMATOLOGY</a></li>
+                                        <li><a class="dropdown-item" href="#">ENDOCRINOLOGY</a></li>
+                                        <li><a class="dropdown-item" href="#">ENT SURGERY</a></li>
+                                        <li><a class="dropdown-item" href="#">GASTROENTEROLOGY</a></li>
+                                        <li><a class="dropdown-item" href="#">GENERAL SURGERY</a></li>
+                                        <li><a class="dropdown-item" href="#">GYNECOLOGY</a></li>
+                                        <li><a class="dropdown-item" href="#">HEMATOLOGY</a></li>
+
+
+
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropend">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Saudi arbia <i class="fas fa-angle-right"></i>
+                                    </a>
+                                    <ul class="dropdown-menu">
+
+                                        <li><a class="dropdown-item" href="#">CARDIOLOGY</a></li>
+                                        <li><a class="dropdown-item" href="#">DENTAL TREATMENT</a></li>
+                                        <li><a class="dropdown-item" href="#">COSMETIC</a></li>
+                                        <li><a class="dropdown-item" href="#">DERMATOLOGY</a></li>
+                                        <li><a class="dropdown-item" href="#">ENDOCRINOLOGY</a></li>
+                                        <li><a class="dropdown-item" href="#">ENT SURGERY</a></li>
+                                        <li><a class="dropdown-item" href="#">GASTROENTEROLOGY</a></li>
+                                        <li><a class="dropdown-item" href="#">GENERAL SURGERY</a></li>
+                                        <li><a class="dropdown-item" href="#">GYNECOLOGY</a></li>
+                                        <li><a class="dropdown-item" href="#">HEMATOLOGY</a></li>
+
+
+
+                                    </ul>
+                                </li>
+
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Doctors <i class="fas fa-angle-down"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+
+                                <li class="nav-item dropend">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        India <i class="fas fa-angle-right"></i>
+                                    </a>
+                                    <ul class="dropdown-menu">
+
+                                        <li><a class="dropdown-item" href="#">CARDIOLOGY</a></li>
+                                        <li><a class="dropdown-item" href="#">DENTAL TREATMENT</a></li>
+                                        <li><a class="dropdown-item" href="#">COSMETIC</a></li>
+                                        <li><a class="dropdown-item" href="#">DERMATOLOGY</a></li>
+                                        <li><a class="dropdown-item" href="#">ENDOCRINOLOGY</a></li>
+                                        <li><a class="dropdown-item" href="#">ENT SURGERY</a></li>
+                                        <li><a class="dropdown-item" href="#">GASTROENTEROLOGY</a></li>
+                                        <li><a class="dropdown-item" href="#">GENERAL SURGERY</a></li>
+                                        <li><a class="dropdown-item" href="#">GYNECOLOGY</a></li>
+                                        <li><a class="dropdown-item" href="#">HEMATOLOGY</a></li>
+
+
+
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropend">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        UAE <i class="fas fa-angle-right"></i>
+                                    </a>
+                                    <ul class="dropdown-menu">
+
+                                        <li><a class="dropdown-item" href="#">CARDIOLOGY</a></li>
+                                        <li><a class="dropdown-item" href="#">DENTAL TREATMENT</a></li>
+                                        <li><a class="dropdown-item" href="#">COSMETIC</a></li>
+                                        <li><a class="dropdown-item" href="#">DERMATOLOGY</a></li>
+                                        <li><a class="dropdown-item" href="#">ENDOCRINOLOGY</a></li>
+                                        <li><a class="dropdown-item" href="#">ENT SURGERY</a></li>
+                                        <li><a class="dropdown-item" href="#">GASTROENTEROLOGY</a></li>
+                                        <li><a class="dropdown-item" href="#">GENERAL SURGERY</a></li>
+                                        <li><a class="dropdown-item" href="#">GYNECOLOGY</a></li>
+                                        <li><a class="dropdown-item" href="#">HEMATOLOGY</a></li>
+
+
+
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropend">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Saudi arbia <i class="fas fa-angle-right"></i>
+                                    </a>
+                                    <ul class="dropdown-menu">
+
+                                        <li><a class="dropdown-item" href="#">CARDIOLOGY</a></li>
+                                        <li><a class="dropdown-item" href="#">DENTAL TREATMENT</a></li>
+                                        <li><a class="dropdown-item" href="#">COSMETIC</a></li>
+                                        <li><a class="dropdown-item" href="#">DERMATOLOGY</a></li>
+                                        <li><a class="dropdown-item" href="#">ENDOCRINOLOGY</a></li>
+                                        <li><a class="dropdown-item" href="#">ENT SURGERY</a></li>
+                                        <li><a class="dropdown-item" href="#">GASTROENTEROLOGY</a></li>
+                                        <li><a class="dropdown-item" href="#">GENERAL SURGERY</a></li>
+                                        <li><a class="dropdown-item" href="#">GYNECOLOGY</a></li>
+                                        <li><a class="dropdown-item" href="#">HEMATOLOGY</a></li>
+
+
+
+                                    </ul>
+                                </li>
+
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Procedures <i class="fas fa-angle-down"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="nav-item dropend">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        CARDIOLOGY<i class="fas fa-angle-right"></i>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item dropend">
+                                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                Congenital Heart Disorder<i class="fas fa-angle-right"></i>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="#">India</a></li>
+                                                <li><a class="dropdown-item" href="#">UAE</a></li>
+
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item dropend">
+                                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                Device Closure Asd<i class="fas fa-angle-right"></i>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="#">India</a></li>
+                                                <li><a class="dropdown-item" href="#">UAE</a></li>
+
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item dropend">
+                                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                Heart Transplant<i class="fas fa-angle-right"></i>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="#">India</a></li>
+                                                <li><a class="dropdown-item" href="#">UAE</a></li>
+
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item dropend">
+                                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                Pacemaker<i class="fas fa-angle-right"></i>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="#">India</a></li>
+                                                <li><a class="dropdown-item" href="#">UAE</a></li>
+
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item dropend">
+                                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                Valve Replacement<i class="fas fa-angle-right"></i>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="#">India</a></li>
+                                                <li><a class="dropdown-item" href="#">UAE</a></li>
+
+                                            </ul>
+                                        </li>
+
+
+
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropend">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        COSMETIC<i class="fas fa-angle-right"></i>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item dropend">
+                                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                Abdominoplasty<i class="fas fa-angle-right"></i>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="#">India</a></li>
+                                                <li><a class="dropdown-item" href="#">UAE</a></li>
+
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item dropend">
+                                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                Arm Lift<i class="fas fa-angle-right"></i>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="#">India</a></li>
+                                                <li><a class="dropdown-item" href="#">UAE</a></li>
+
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item dropend">
+                                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                Brazilian Butt Lift<i class="fas fa-angle-right"></i>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="#">India</a></li>
+                                                <li><a class="dropdown-item" href="#">UAE</a></li>
+
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item dropend">
+                                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                Breast Implants<i class="fas fa-angle-right"></i>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="#">India</a></li>
+                                                <li><a class="dropdown-item" href="#">UAE</a></li>
+
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item dropend">
+                                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                Breast Reconstruction with Implant<i class="fas fa-angle-right"></i>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="#">India</a></li>
+                                                <li><a class="dropdown-item" href="#">UAE</a></li>
+
+                                            </ul>
+                                        </li>
+
+
+
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropend">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        ENDOCRINOLOGY<i class="fas fa-angle-right"></i>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item dropend">
+                                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                Thyroid Cancer<i class="fas fa-angle-right"></i>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="#">India</a></li>
+                                                <li><a class="dropdown-item" href="#">UAE</a></li>
+
+                                            </ul>
+                                        </li>
+
+                                    </ul>
+                                </li>
+
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#patient_story">Patient Stories</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="aboutus.html">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactus.html">Contact us</a>
+                        </li>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+
+    <div class="innerBanners">
+        <div class="banner_img ">
+            <img src="assets/images/bannerArtimas.jpg" alt="">
+            <div class="banner-content">
+                <div class="container">
+                    <div class="row justify-content-center text-center">
+                        <div class="col-sm-8 titlebanner">
+                            <h1>Artemis Hospital </h1>
+                            <p>Leading the Way in Healthcare Excellence with Compassion and Innovation.</p>
+
+                        </div>
+                        <div class="col-sm-8">
+                            <div class="searchBox">
+                                <input type="text" name="" id="" class="form-control"
+                                    placeholder="Search hospital, doctor, specialities">
+                                <div class="icons">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <section class="hospital-detail">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                <div class="top-headings d-flex align-items-center justify-content-between flex-wrap">
+                    <h3 class="hospitalsName">Artemis Hospital Gurugram</h3>
+                    <div class="bookappointment-hos py-lg-0 py-3">
+                        <a href="/bookappointment-hospital.html" class="bookhospitalappointment">Book appointment</a>
+                    </div>
+                </div>
+                <div class="icon-list">
+                    <span><i class="fa-solid fa-location-dot"></i>Gurugram</span>
+                    <span><i class="fa-solid fa-bed"></i> 350 Beds </span>
+                    <span><i class="fa-regular fa-building"></i>  Established in : 2007</span>
+                    <span><i class="fa-solid fa-briefcase-medical"></i>Super Specialty</span>
+                </div>
+                <p>Artemis Hospital, inaugurated in 2007 and nestled in Gurugram, India, spans over 9 acres of modern infrastructure. With over 350 beds, it stands as a pinnacle of healthcare excellence, offering state-of-the-art facilities and services across various specialties. Notably, Artemis Hospital holds the prestigious distinction of being the first in Gurugram to earn accreditation from both JCI (Joint Commission International) and NABH (National Accreditation Board for Hospitals & Healthcare Providers), reflecting its commitment to quality care and patient safety.</p>
+                <p>Artemis stands as a beacon of advanced healthcare in India, meticulously designed to offer a wide array of cutting-edge medical and surgical interventions. Boasting a comprehensive range of inpatient and outpatient services, it blends modern technology with the expertise of distinguished doctors hailing from India and abroad. The hospital's medical practices are deeply rooted in research and consistently benchmarked against global standards, ensuring the delivery of world-class care. Coupled with a warm, patient-centric environment, Artemis Hospital is renowned for its top-notch services and affordability, earning it a well-deserved reputation as one of the most respected healthcare institutions in the country.
+                </p>
+   
+                <div class="blue-form">
+                    <h3><i class="fa-solid fa-user-plus"></i> search doctor</h3>
+                    <form class="hos-form">
+                        <div class="form-group w-40">
+                            <label>select department</label>
+                            <select class="form-select position-relative">
+                                <option selected>All Department</option>
+                                <option value="1">Noida</option>
+                                <option value="2">Gurugram</option>
+                                <option value="3">Ghaziabad</option>
+                            </select>
+                    
+                        </div>
+                        <div class="form-group w-40">
+                            <label>select Doctor</label>
+                            <select class="form-select position-relative">
+                                <option selected>Dental Treatment</option>
+                                <option value="1">Noida</option>
+                                <option value="2">Gurugram</option>
+                                <option value="3">Ghaziabad</option>
+                            </select>
+                 
+                        </div>
+                        <div class="form-group">
+                            <input type="button" class="search-btn" value="Search">
+                        </div>
+                    </form>
+                </div>
+                <div class="list-d">
+                    <h3><i class="fa-regular fa-building"></i> about the hospital</h3>
+                    <ul>
+                        <li>
+                            Established in 2007, Artemis Hospital stands as a premier super-specialty healthcare institution located in Gurugram, Delhi.</li>
+                        <li>
+                            Additionally, Artemis Hospital holds the distinction of being the first healthcare facility in Gurugram to achieve accreditation from both JCI (Joint Commission International) and NABH (National Accreditation Board for Hospitals & Healthcare Providers).</li>
+                        <li>
+                            In 2011, Artemis Hospital was honored with the prestigious 'Asia Pacific Hand Hygiene Excellence Award' by the World Health Organization (WHO), further highlighting its commitment to maintaining high standards of hygiene and patient safety.</li>
+                    </ul>
+                </div>
+    
+                <div class="hos-department list-d">
+                    <h3><i class="fa-solid fa-scale-balanced"></i> select department of your interest</h3>
+                    <div class="row py-3">
+                        <div class="col-md-4 br-1">
+                            <ul>
+                                <li><a href=""><img src="assets/images/fac1.png" width="24px" height="24px" >cardiology</a></li>
+                                <li><a href=""><img src="assets/images/organsmall.png" width="24px" height="24px">organ transplant</a></li>
+                                <li><a href=""><img src="assets/images/neorologysmall.png" width="24px" height="24px">neurology</a></li>
+                                <li><a href=""><img src="assets/images/orthopadicssmall.png" width="24px" height="24px">orthopedics</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4 br-1 ps-md-5">
+                            <ul>
+                                <li><a href=""><img src="assets/images/hematologysmall.png" width="24px" height="24px">hematology</a></li>
+                                <li><a href=""><img src="assets/images/oncologysmall.png" width="24px" height="24px">oncology</a></li>
+                                <li><a href=""><img src="assets/images/spinesmall.png" width="24px" height="24px">spine surgery</a></li>
+                                <li><a href=""><img src="assets/images/ivfsmall.png" width="24px" height="24px">IVF & fertility</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4 ps-md-5">
+                            <ul>
+                                <li><a href=""><img src="assets/images/cosmatcismall.png" width="24px" height="24px">Cosmetology</a></li>
+                                <li><a href=""><img src="assets/images/ophthalmologistsmall.png" width="24px" height="24px">opthamology</a></li>
+    
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="list-d">
+                    <h3><i class="fa-solid fa-location-dot"></i> hospital Photos</h3>
+                    <div class="row pt-5">
+                        <div class="col-md-12 col-lg-8 mb-3">
+                            <div class="hopitalsImg">
+                                <img src="assets/images/artemis-hospital.jpg"
+                                    alt="blogimg" loading="lazy" class="w-100">
+    
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-lg-4 m-auto text-center">
+                            <div class="homesmall mb-3">
+                                <img src="assets/images/artemis-health-gallery1.jpg"
+                                    alt="blogimg" loading="lazy" class="w-100">
+    
+                            </div>
+                            <div class="homesmall mb-3">
+                                <img src="assets/images/artemis-health-gallery2.jpg"
+                                    alt="blogimg" loading="lazy" class="w-100">
+    
+                            </div>
+                            <div class="homesmall mb-3">
+                                <img src="assets/images/artemis-health-gallery3.jpg"
+                                    alt="blogimg" loading="lazy" class="w-100">
+    
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+    
+                <div class="list-d">
+                    <h3><i class="fa-solid fa-location-dot"></i> hospital address</h3>
+                    <ul>
+                        <li>Near Unitech Cyber park, Sector 51,Gurugram 122001</li>
+                        <li>India</li>
+                        
+                    </ul>
+                </div>
+    
+                <div class="list-d">
+                    <h3><i class="fa-solid fa-stethoscope"></i> team and specialities</h3>
+                    <ul>
+                        <li>
+                            Artemis Hospital boasts a distinguished team of 300 full-time doctors, each specializing in various fields, ensuring comprehensive medical expertise across the spectrum of healthcare. With 11 centers of excellence and a remarkable array of 40 specialties, Artemis is equipped to address diverse healthcare needs with precision and excellence.</li>
+                        <li>Artemis Hospital prides itself on providing access to cutting-edge equipment for predictive, diagnostic, and therapeutic imaging. With a commitment to staying at the forefront of medical technology, Artemis offers some of the most advanced imaging equipment available. This includes state-of-the-art tools for predictive analysis, precise diagnostics, and effective therapeutic interventions, ensuring patients receive the highest standard of care possible.</li>
+                        <li>Artemis Hospital is equipped with the latest in medical technology, including advanced equipment such as the 3 Tesla MRI, 64 Slice Cardiac CT Scan, and 16-slice PET CT from Philips Medical System. These cutting-edge imaging systems enable precise and detailed diagnostic imaging, facilitating accurate diagnoses and tailored treatment plans for patients. With such state-of-the-art equipment, Artemis Hospital remains committed to delivering the highest standards of healthcare with precision and efficiency.</li>
+                    </ul>
+                </div>
+    
+                <div class="list-d">
+                    <h3><i class="fa-solid fa-user-plus"></i> Top doctors at Artemis Hospital, Gurugram</h3>
+                    <div class="row hos-doctor mt-5">
+                        <div class="col-lg-12 ">
+                            <div class="topDoctors owl-carousel owl-theme">
+                                <div class="specilitiedoctors_wrapper">
+                                    <div class="doctors_profile">
+                                        <img src="assets/images/dr._pawan_rawal-min.jpg" alt="doctorprofile" loading="lazy">
+                                    </div>
+                                    <div class="doctorpro_details">
+                                        <h4 class="doctorname">Dr. Pawan Rawal</h4>
+                                        <h5 class="hospitalname">Medical Gastroenterologist</h5>
+                                        <div class="btn_custom">
+                                            <a href="/book-appointment.html" class="bookappoitment">Book Appointment</a>
+                                        </div>
+                                    </div>
+        
+                                </div>
+                                <div class="specilitiedoctors_wrapper">
+                                    <div class="doctors_profile">
+                                        <img src="assets/images/dr_aditya_gupta.png" alt="doctorprofile" loading="lazy">
+                                    </div>
+                                    <div class="doctorpro_details">
+                                        <h4 class="doctorname">Dr. Aditya Gupta</h4>
+                                        <h5 class="hospitalname">Neurosurgeon</h5>
+                                        <div class="btn_custom">
+                                            <a href="/book-appointment.html" class="bookappoitment">Book Appointment</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="specilitiedoctors_wrapper">
+                                    <div class="doctors_profile">
+                                        <img src="assets/images/dr-dr-i-p-s-oberoi.jpg" alt="doctorprofile" loading="lazy">
+                                    </div>
+                                    <div class="doctorpro_details">
+                                        <h4 class="doctorname">Dr IPS Oberoi</h4>
+                                        <h5 class="hospitalname">Orthopaedic and Joint Replacement Surgeon</h5>
+                                        <div class="btn_custom">
+                                            <a href="/book-appointment.html" class="bookappoitment">Book Appointment</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="specilitiedoctors_wrapper">
+                                    <div class="doctors_profile">
+                                        <img src="assets/images/dr_hitesh_garg_photo.jpg" alt="doctorprofile" loading="lazy" title="Dr. Hitesh Garg">
+                                    </div>
+                                    <div class="doctorpro_details">
+                                        <h4 class="doctorname">Dr. Hitesh Garg</h4>
+                                        <h5 class="hospitalname">Spine Surgeont</h5>
+                                        <div class="btn_custom">
+                                            <a href="/book-appointment.html" class="bookappoitment">Book Appointment</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="specilitiedoctors_wrapper">
+                                    <div class="doctors_profile">
+                                        <img src="assets/images/dr-vipul-nanda-cosmetic-surgery-2.jpg" alt="doctorprofile" loading="lazy">
+                                    </div>
+                                    <div class="doctorpro_details">
+                                        <h4 class="doctorname">Dr. Vipul Nanda</h4>
+                                        <h5 class="hospitalname">Aesthetics and Plastic Surgeon</h5>
+                                        <div class="btn_custom">
+                                            <a href="/book-appointment.html" class="bookappoitment">Book Appointment</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="specilitiedoctors_wrapper">
+                                    <div class="doctors_profile">
+                                        <img src="assets/images/dr._nutan_agarwal_-_obstetrician_and_gynecologist.jpg" alt="doctorprofile" loading="lazy">
+                                    </div>
+                                    <div class="doctorpro_details">
+                                        <h4 class="doctorname">Dr. Nutan Agarwal</h4>
+                                        <h5 class="hospitalname">Gynaecologist and Obstetrician </h5>
+                                        <div class="btn_custom">
+                                            <a href="/book-appointment.html" class="bookappoitment">Book Appointment</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                         
+                        </div>
+                    </div>
+                </div>
+                <div class="list-d">
+                    <h3><i class="fa-regular fa-building"></i> infrastructure</h3>
+                    <ul>
+                        <li>Artemis Hospital, nestled within a sprawling 9-acre campus, offers a sanctuary of healing and care. With a capacity to accommodate 380 beds, our facility ensures ample space for patients to receive treatment and recovery in comfort.</li>
+                        <li>
+                            Artemis Hospital maintains rigorous norms and implements robust clinical and nonclinical processes for continuous quality improvement. Stringent protocols ensure the highest standards of safety, effectiveness, and patient satisfaction, driving our commitment to excellence in healthcare delivery.</li>
+                        <li>Artemis Hospital provides comprehensive services to international patients, including pre-departure assistance, post-admission support, and post-discharge care. From coordinating travel arrangements to offering personalized medical attention, we ensure a seamless and comfortable healthcare experience for patients from around the world.</li>
+                    </ul>
+                </div>
+                <div class="list-d">
+                    <h3><i class="fa-solid fa-location-dot"></i> location</h3>
+                    <ul>
+                        <li>airport: Distance 19.5 Km, Duration:32 min away</li>
+                        <li>Taxi: On call, available at your doorstep</li>
+                        <li>metro station: distance 50 meter, duration: 1 minutes walk</li>
+                        <li>lot of options for shopping and food within 1 km of the hospital</li>
+                    </ul>
+               </div>
+                <div class="list-d">
+                    <h3><i class="fa-solid fa-file-lines"></i> facilities</h3>
+                    <div class="row hos-fac mt-4">
+                        <div class="col-md-3">
+                            <h6>comfort during stay</h6>
+                            <ul>
+                                <li>TV in room</li>
+                                <li>Private rooms</li>
+                                <li>Free Wifi</li>
+                                <li>Private rooms</li>
+                                <li>Phone in Room</li>
+                                <li>Mobility accessible rooms</li>
+                                <li>Family accommodation</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3">
+                            <h6>Money Matters</h6>
+                            <ul>
+                                <li>Health insurance coordination</li>
+                                <li>Medical travel insurance</li>
+                                <li>Foreign currency exchange</li>
+                                <li>ATM</li>
+                                <li>Credit Card</li>
+                                <li>Debit Card</li>
+                                <li>Netbanking</li>
+                            </ul>
+                        </div>
+    
+                        <div class="col-md-3">
+                            <h6>food</h6>
+                            <ul>
+                                <li>Diet on Request</li>
+                                <li>Restaurant</li>
+                                <li>International Cuisine</li>
+                            </ul>
+                        </div>
+    
+                        <div class="col-md-3">
+                            <h6>Treatment Related</h6>
+                            <ul>
+                                <li>Online doctor consultation</li>
+                                <li>Rehabilitation</li>
+                                <li>Pharmacy</li>
+                                <li>Document legalisation</li>
+                                <li>Post operative followup</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-d sim-hos">
+                    <h3><i class="fa-regular fa-hospital"></i> Similar hospital</h3>
+                    <div class="row hos-doctor mt-5 ">
+                        <div class="col-12">
+                            <div class="similerSlider owl-carousel owl-theme">
+                            
+                                <a href="">
+                                    <div class="specilitiedoctors_wrapper">
+                                        <div class="doctors_profile">
+                                            <img src="assets/images/fortisegurgaon.webp" alt="doctorprofile" loading="lazy">
+                                        </div>
+                                        <div class="doctorpro_details">
+                                            <h4 class="doctorname">Fortis Memorial Research Institute, Gurugram(FMRI)</h4>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="">
+                                    <div class="specilitiedoctors_wrapper">
+                                        <div class="doctors_profile">
+                                            <img src="assets/images/medanta-hospital.png" alt="doctorprofile" loading="lazy">
+                                        </div>
+                                        <div class="doctorpro_details">
+                                            <h4 class="doctorname">Medanta Hospital, Gurugram</h4>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="">
+                                    <div class="specilitiedoctors_wrapper">
+                                        <div class="doctors_profile">
+                                            <img src="assets/images/max-Saket-1.jpg" alt="doctorprofile" loading="lazy">
+                                        </div>
+                                        <div class="doctorpro_details">
+                                            <h4 class="doctorname">Max Saket Hospital, New Delhi </h4>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="">
+                                    <div class="specilitiedoctors_wrapper">
+                                        <div class="doctors_profile">
+                                            <img src="assets/images/sanarhospital.jpg" alt="doctorprofile" loading="lazy">
+                                        </div>
+                                        <div class="doctorpro_details">
+                                            <h4 class="doctorname">Sanar International Hospital , Gurugram </h4>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+                <div class="list-d sim-hos pt-5">
+                    <h3><i class="fa-solid fa-location-dot"></i> read patient stories</h3>
+                    <div class="row hos-doctor mt-5">
+    
+                        <div class="col-xxl-3 col-lg-4 col-sm-6 mb-3">
+                            <div class="specilitiedoctors_wrapper">
+                                <div class="doctors_profile">
+                                    <img src="assets/images/diverse-group-three-young-doctors-looking-computer-screen.png"
+                                        alt="doctorprofile" loading="lazy">
+                                </div>
+                                <div class="doctorpro_details">
+                                    <h4 class="doctorname">“a ten-year-old boy undergoes successful kidney transplant...”
+                                    </h4>
+                                </div>
+    
+                            </div>
+                        </div>
+                        <div class="col-xxl-3 col-lg-4 col-sm-6 mb-3">
+                            <div class="specilitiedoctors_wrapper">
+                                <div class="doctors_profile">
+                                    <img src="assets/images/diverse-group-three-young-doctors-looking-computer-screen.png"
+                                        alt="doctorprofile" loading="lazy">
+                                </div>
+                                <div class="doctorpro_details">
+                                    <h4 class="doctorname">“a ten-year-old boy undergoes successful kidney transplant...”
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-3 col-lg-4 col-sm-6 mb-3">
+                            <div class="specilitiedoctors_wrapper">
+                                <div class="doctors_profile">
+                                    <img src="assets/images/diverse-group-three-young-doctors-looking-computer-screen.png"
+                                        alt="doctorprofile" loading="lazy">
+                                </div>
+                                <div class="doctorpro_details">
+                                    <h4 class="doctorname">“a ten-year-old boy undergoes successful kidney transplant...”
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+    
+    
+                    </div>
+                </div>
+            </div>
+          </div>
+    </section>
+
+
+    <footer class="main_footer mt-30">
+        <div class="container-fluid pt-30 pb-30 padding_set">
+            <div class="row">
+                <div class="col-xl-4 col-lg-6 col-md-6 mb-4">
+                    <div class="footer_details">
+                        <div class="top">
+                            <img src="assets/images/medTripznew.png" alt="" width="170">
+                        </div>
+                        <div class="text_details ">
+                            <p>lorem ipsum is simply dummy text of the printing and typesetting industry. lorem ipsum is
+                                simply dummy text of the printing and typesetting industry.</p>
+
+                        </div>
+                        <div class="addressdetails">
+                            <p><i class="fa-solid fa-location-dot"></i><span> A-245, A.F.E-2, Okhla, New Delhi,
+                                    India</span></p>
+                            <p><i class="fa-solid fa-envelope"></i><span> <a
+                                        href="mailto:info@MedTripz.com">info@MedTripz.com</a></span></p>
+                            <p> <i class="fa-solid fa-phone"></i> <span> <a href="tel:88899988899">+91
+                                        88899988899</a></span></p>
+
+
+
+                        </div>
+                        <div class="footer_social_icons pt-2">
+                            <a href=""> <i class="fa-brands fa-facebook"></i></a>
+                            <a href=""> <i class="fa-brands fa-square-twitter"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-youtube"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 mb-4">
+                    <div class="footer_details">
+                        <div class="top">
+                            <h4 class="footer_heading">Top Procedures</h4>
+                        </div>
+                        <div class="text_details ">
+                            <ul>
+                                <li><a href="">Organ Transplant</a></li>
+                                <li><a href="">Liver Transplant</a></li>
+                                <li><a href="">Neurology</a></li>
+                                <li><a href="">Orthopedic</a></li>
+                                <li><a href="">Spine Surgery</a></li>
+                                <li><a href="">Knee Replacement</a></li>
+                                <div class="viwmoew">
+                                    <a href="">View all</a>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6  col-sm-6 mb-4">
+                    <div class="footer_details">
+                        <div class="top">
+                            <h4 class="footer_heading">Top Hospitals</h4>
+                        </div>
+                        <div class="text_details ">
+                            <ul>
+                                <li><a href="">Organ Transplant</a></li>
+                                <li><a href="">Liver Transplant</a></li>
+                                <li><a href="">Neurology</a></li>
+                                <li><a href="">Orthopedic</a></li>
+                                <li><a href="">Spine Surgery</a></li>
+                                <li><a href="">Knee Replacement</a></li>
+                                <div class="viwmoew">
+                                    <a href="">View all</a>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-3 col-md-6  mb-4">
+                    <div class="footer_details">
+                        <div class="top">
+                            <h4 class="footer_heading">Top Doctors</h4>
+                        </div>
+                        <div class="text_details ">
+                            <ul>
+                                <li><a href="">Organ Transplant</a></li>
+                                <li><a href="">Liver Transplant</a></li>
+                                <li><a href="">Neurology</a></li>
+                                <li><a href="">Orthopedic</a></li>
+                                <li><a href="">Spine Surgery</a></li>
+                                <li><a href="">Knee Replacement</a></li>
+                                <div class="viwmoew">
+                                    <a href="">View all</a>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <div class="container-fluid pt-30 pb-30 padding_set">
+            <div class="row">
+                <div class="col-md-12 col-lg-4">
+                    <div class="copyright">
+                        <p><a href="">MedTripz.com</a> &#169; All right reserved</p>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-8">
+                    <div class="linkstrems d-flex align-items-center gap-2 justify-content-lg-end me-lg-5">
+                        <a href=""> Terms of service </a> <span class="d-sm-block d-none text-white">|</span>
+                        <a href=""> Privacy Policy </a> <span class="d-sm-block d-none text-white">|</span>
+                        <a href="">Terms of Use</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body label_text">
+                    <div class="form_model">
+                        <form action="">
+                            <div class="container">
+                                <div class="row ">
+                                    <div class="col-12">
+                                        <div class="title-form contact-title">
+                                            <h2>Get In Touch</h2>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 mb-3">
+                                        <div class="enquiryInput">
+                                            <label for="">Patient Full Name</label>
+                                            <input type="text" placeholder="Full Name" class="form-control">
+                                        </div>
+                                    </div>
+                                  
+                                    <div class="col-lg-6 col-md-6 mb-3">
+                                        <div class="enquiryInput">
+                                            <label for="">Select Country</label>
+                                            <select class="form-select" aria-label="Default select example"
+                                                id="countrySelect">
+                                                <option value="91" selected>India</option>
+                                                <option value="971">UAE</option>
+                                                <option value="90">Turkey</option>
+                                                <option value="1">USA</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 mb-3">
+                                        <div class="enquiryInput">
+                                            <label for="">Select City</label>
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected>New Delhi</option>
+                                                <option value="1">Noida</option>
+                                                <option value="2">Gurgaon</option>
+                                                <option value="3">Ghaziabad</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 mb-3">
+                                        <div class="enquiryInput form-group">
+                                            <label for="">Mobile Number</label>
+                                            <div class="input-group">
+                                                <span class="input-group-text" id="countryCode">(+91)</span>
+                                                <input type="text" id="mobileNumber" class="form-control"
+                                                    placeholder="Phone Number" name="mobileNumber">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 mb-3">
+                                        <div class="enquiryInput">
+                                            <label for="">Your Email</label>
+                                            <input type="text" placeholder="samueldaniels@gmail.com"
+                                                class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 mb-3">
+                                        <div class="enquiryInput">
+                                            <label for="">Date of Birth</label>
+                                            <input type="date" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 mb-3">
+                                        <div class="enquiryInput">
+                                            <label for="">Describe the current medical</label>
+                                            <textarea name="" id="" cols="30" rows="10" class="form-control"
+                                                placeholder="describe the current medical"></textarea>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-12 col-md-12 mb-3">
+                                        <div class="enquiryInput">
+                                            <label>Upload Documents</label>
+                                            <label for="fileInput" class="custom-file-upload" id="uploadLabel">
+                                                Upload File</label>
+                                            <input type="file" id="fileInput" class="hidefile" multiple
+                                                accept=".txt, .pdf,,png,.jpg,.jpeg,.webp, .doc, .docx"
+                                                onchange="updateFileCount()">
+                                            <p id="fileCount"></p>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="bookappointment-btn text-center pt-1 pb-2">
+                                            <button type="button">Book an appointment</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.14.0-beta2/js/bootstrap-select.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+</body>
+
+</html>
